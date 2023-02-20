@@ -14,8 +14,12 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "http://0.0.0.0:4873/",
+    "registry": "http://localhost:4873/",
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Higginshuangjing/lerna-init/tree/main/packages/cli"
   },
   "scripts": {
     "test": "node ./__tests__/@mo-demo/cli.test.js"
