@@ -1,0 +1,27 @@
+{
+  "name": "@mo-demo/cli-shared-utils",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "黄婧 <huangjing@fiture.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/cli-shared-utils.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://0.0.0.0:4873/",
+    "access": "public"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@mo-demo/cli-shared-utils.test.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "semver": "^7.3.8"
+  }
+}
