@@ -1,6 +1,6 @@
 {
   "name": "@mo-demo/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "> TODO: description",
   "author": "黄婧 <huangjing@fiture.com>",
   "homepage": "",
@@ -25,7 +25,7 @@
     "test": "node ./__tests__/@mo-demo/cli.test.js"
   },
   "dependencies": {
-    "@mo-demo/cli-shared-utils": "^1.0.0",
+    "@mo-demo/cli-shared-utils": "^1.0.1",
     "chalk": "^5.2.0"
   }
 }
