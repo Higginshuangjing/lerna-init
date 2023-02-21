@@ -66,18 +66,18 @@
     "validate-npm-package-name" "^4.0.0"
     "yargs-parser" "20.2.4"
 
-"@mo-demo/cli-shared-utils@^1.0.0", "@mo-demo/cli-shared-utils@file:/Users/huangjing/Desktop/2023/lerna-init/packages/cli-shared-utils":
+"@mo-demo/cli-shared-utils@^1.0.1", "@mo-demo/cli-shared-utils@file:/Users/huangjing/Desktop/2023/lerna-init/packages/cli-shared-utils":
   "resolved" "file:packages/cli-shared-utils"
-  "version" "1.0.0"
+  "version" "1.0.1"
   dependencies:
     "chalk" "^5.2.0"
     "semver" "^7.3.8"
 
 "@mo-demo/cli@file:/Users/huangjing/Desktop/2023/lerna-init/packages/cli":
   "resolved" "file:packages/cli"
-  "version" "1.0.0"
+  "version" "1.0.1"
   dependencies:
-    "@mo-demo/cli-shared-utils" "^0.0.0"
+    "@mo-demo/cli-shared-utils" "^1.0.0"
     "chalk" "^5.2.0"
 
 "@nodelib/fs.scandir@2.1.5":
